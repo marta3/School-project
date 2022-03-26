@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "618e593b3698cc66c55cfc47538ec2be",
+    "content-hash": "e2fce66115954ab8a3b9fa5c73658990",
     "packages": [
         {
             "name": "barryvdh/laravel-debugbar",
@@ -1010,51 +1010,6 @@
             "time": "2018-05-07T08:44:23+00:00"
         },
         {
-            "name": "lynx39/lara-pdf-merger",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/deltaaskii/lara-pdf-merger.git",
-                "reference": "11d9d12e9048ff186c34458862f9325c0473eaba"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/deltaaskii/lara-pdf-merger/zipball/11d9d12e9048ff186c34458862f9325c0473eaba",
-                "reference": "11d9d12e9048ff186c34458862f9325c0473eaba",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "LynX39\\LaraPdfMerger": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Michael Musso",
-                    "email": "lynx@deltaaskii.com",
-                    "homepage": "https://github.com/LynX39"
-                }
-            ],
-            "homepage": "https://github.com/LynX39/lara-pdf-merger",
-            "keywords": [
-                "laravel",
-                "manage",
-                "merge",
-                "merger",
-                "paginate",
-                "pdf"
-            ],
-            "time": "2018-05-03T11:25:17+00:00"
-        },
-        {
             "name": "maximebf/debugbar",
             "version": "v1.15.0",
             "source": {
@@ -1809,16 +1764,16 @@
         },
         {
             "name": "sabberworm/php-css-parser",
-            "version": "8.1.0",
+            "version": "8.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sabberworm/PHP-CSS-Parser.git",
-                "reference": "850cbbcbe7fbb155387a151ea562897a67e242ef"
+                "reference": "b3683fba4e30963908265b039190a0e88f74c6fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sabberworm/PHP-CSS-Parser/zipball/850cbbcbe7fbb155387a151ea562897a67e242ef",
-                "reference": "850cbbcbe7fbb155387a151ea562897a67e242ef",
+                "url": "https://api.github.com/repos/sabberworm/PHP-CSS-Parser/zipball/b3683fba4e30963908265b039190a0e88f74c6fb",
+                "reference": "b3683fba4e30963908265b039190a0e88f74c6fb",
                 "shasum": ""
             },
             "require": {
@@ -1849,7 +1804,11 @@
                 "parser",
                 "stylesheet"
             ],
-            "time": "2016-07-19T19:14:21+00:00"
+            "support": {
+                "issues": "https://github.com/sabberworm/PHP-CSS-Parser/issues",
+                "source": "https://github.com/sabberworm/PHP-CSS-Parser/tree/8.1.1"
+            },
+            "time": "2020-06-01T09:09:10+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4561,13 +4520,12 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "lynx39/lara-pdf-merger": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": ">=7.0.0"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
 }
